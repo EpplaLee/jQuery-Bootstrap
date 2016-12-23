@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="ImageGallery.css" media="screen" />
 	<meta charset="utf-8"/>
 	<title>Image Gallery</title>
@@ -9,29 +10,32 @@
 <body>
 
 	<h1>Snapshots</h1>
+	<div id="buttonArea">
 	<ul id = "imagegallery">
-		<li>
-			<a href="images/gintama1.jpg"  title="某死鱼眼银发天然卷">银他妈</a> 
+		<li class="btn btn-success">
+			<a href="images/gintama1.jpg"  title="某死鱼眼银发天然卷">银他妈</a>
 		</li>
-		<li>
-			<a href="images/gotham1.jpg"  title="端着加特林的哥谭某萌萌哒">布奇</a> 
-		</li>	
-		<li>
-			<a href="images/hosisora1.jpg"  title="萌之上即荡漾">战场原荡漾</a> 
+		<li class="btn btn-success">
+			<a href="images/gotham1.jpg"  title="端着加特林的哥谭某萌萌哒">布奇</a>
 		</li>
-		<li>
-			<a href="images/mayoi1.png"  title="某不回家的迷路小学生">八九寺真宵</a> 
+		<li class="btn btn-success">
+			<a href="images/hosisora1.jpg"  title="萌之上即荡漾">战场原荡漾</a>
 		</li>
-		<li>
-			<a href="images/meme1.png"  title="浪子">忍野咩咩</a> 
+		<li class="btn btn-success">
+			<a href="images/mayoi1.png"  title="某不回家的迷路小学生">八九寺真宵</a>
 		</li>
-		<li>
-			<a href="images/酒1.jpg"  title="酒是没法消愁的啊">日本酒</a> 
+		<li class="btn btn-success">
+			<a href="images/meme1.png"  title="浪子">忍野咩咩</a>
+		</li>
+		<li class="btn btn-success">
+			<a href="images/酒1.jpg"  title="酒是没法消愁的啊">日本酒</a>
 		</li>
 		</ul>
+	</div>
+	<div id="galleryArea">
 		<img id="placeholder" src="images/placeholder.jpg" alt="my image gallery" height="350" width="600"/>
 		<p id = "description">Choose a image.</p>
+	</div>
 		<script type="text/javascript" src="scripts/showPic.js"></script>
 		</body>
 		</html>
-		
